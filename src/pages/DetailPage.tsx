@@ -21,6 +21,7 @@ const DetailPage = () => {
   }
 
   function handleClose() {
+    console.log("hello");
     setIsModalOpen(false);
   }
 
